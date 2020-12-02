@@ -1,0 +1,77 @@
+.exp{
+    margin-top: 50px;
+}
+.container-exp{
+    max-width: 1200px;
+    margin: auto;
+   
+    .cards{
+        margin: 20px 5%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        //grid-template-rows: 250px 250px;
+        grid-gap: 100px;
+        text-align: justify;
+
+      .cd{
+        background: rgba(204, 204, 204, 0.404);
+        padding: 5px;
+        border-radius: 10px;
+      }
+        .grafic{
+            width: 250px;
+            
+        }
+
+        .grafic2{
+            width: 250px;
+            
+        }
+        .grafic3{
+            width: 250px;
+            
+        
+        }
+        .grafic4{
+            width: 250px;
+           ;
+         
+        }
+
+        .grafic5{
+            width: 250px;
+            
+          
+        }
+
+    }
+
+}
+
+// Responsive 
+@media screen and (max-width:768px){
+    .exp{
+        margin-top: 50px;
+    }
+    .container-exp{
+       margin: 0 5%;
+       
+        .cards{
+           
+            display: block;
+            
+    
+          .cd{
+            background: rgba(204, 204, 204, 0.404);
+           
+            border-radius: 10px;
+            width: 100%;
+            height: 200px;
+            margin: 10px 0;
+          }
+            
+    
+        }
+    
+    }
+}

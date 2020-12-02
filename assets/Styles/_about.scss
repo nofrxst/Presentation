@@ -1,0 +1,138 @@
+.about{
+    max-width: 1200px;
+    margin: auto;
+
+    .container-ab{
+        padding-top: 140px;
+        display: flex;
+        
+        .description{
+
+           
+            h2,h3{
+                font-family: roboto;
+            }
+            h2{
+                font-size: 20px;
+            }
+            h3{
+                font-size: 35px;
+                padding-right: 20%;
+            }
+
+           .descarga{
+            margin-top: 16vh;
+            display: Flex;
+            padding: 10px;
+            background: linear-gradient(90deg,#4bfdfd,#494cf4);
+            width: 150px;
+            align-items: center;
+            justify-content: center;
+            border-radius: 20px;
+            box-shadow: 2px 5px 10px 1px rgba(0, 0, 0, 0.322);
+            gap: 5px;
+                
+                &:hover{
+                    transition: 0.5s all ease;
+                    transform: scale(1.03);
+                   
+                }
+               .btn-descarga{
+                
+                
+                 display: block;
+                 color: white;
+                 text-align: center;
+                 font-family: roboto;
+                 font-size: 15px;
+                 text-decoration: none;
+                 text-transform: uppercase;
+                 
+                 
+               }
+           }
+        }
+        .foto{
+            img{
+              border-radius: 10px;
+                
+            }
+        }
+    }
+}
+
+// Responsive 
+@media screen and (max-width:768px){
+
+    .about{
+        
+        margin: auto;
+        
+        .container-ab{
+            padding-top: 30px;
+            display: block;
+                       
+            .description{
+                width: 100vw;
+                text-align: center; 
+                h2,h3{
+                    font-family: roboto;
+                    
+                }
+                h2{
+                    font-size: 20px;
+                }
+                h3{
+                    font-size: 35px;
+                    padding-right: 0%;
+                    padding-top: 20px ;
+                }
+    
+               .descarga{
+                
+                margin-top: 20px;
+                margin-bottom: 20px;
+                margin-left: 33%;
+            display: Flex;
+            padding: 10px;
+            background: linear-gradient(90deg,#4bfdfd,#494cf4);
+            width: 150px;
+            align-items: center;
+            justify-content: center;
+            border-radius: 20px;
+            box-shadow: 2px 5px 10px 1px rgba(0, 0, 0, 0.322);
+            gap: 5px;
+                //Centrar elementos
+               
+                // 
+                
+                   .btn-descarga{
+                      
+                    display: block;
+                 color: white;
+                 text-align: center;
+                 font-family: roboto;
+                 font-size: 15px;
+                 text-decoration: none;
+                 text-transform: uppercase;
+                       &:hover{
+                           transition: 0.5s all ease;
+                           transform: scale(1.03);
+                          
+                       }
+                   }
+               }
+            }
+            .foto{
+                display: flex;
+                  justify-content: center;
+                  align-items: center;
+                img{
+                  border-radius: 10px;
+                  
+                  
+                }
+            }
+        }
+    }
+}
